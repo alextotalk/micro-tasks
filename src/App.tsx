@@ -1,8 +1,4 @@
 import './App.css';
-import {Header} from "./component/Header/Header";
-import {Body} from "./component/Body/Body";
-import {useId} from "react";
-import {Button} from "./component/Button/Button";
 import UseStat from "./component/UseStat/UseStat";
 
 function App() {
