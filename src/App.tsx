@@ -1,5 +1,5 @@
 import './App.css';
-import UseStat from "./component/UseStat/UseStat";
+import Filter from "./component/Filter/Filter";
 
 function App() {
     // let students = [
@@ -19,7 +19,7 @@ function App() {
     // }
     return (
         <div className="App">
-            <UseStat/>
+            <Filter/>
             {/*<Header title="Header"/>*/}
             {/*<Body title="List" students={students}/>*/}
             {/*<Button name={"Greeting"} callBack={() => Foo1("alex")}/>*/}
