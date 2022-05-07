@@ -16,14 +16,14 @@ export type MoneyType = {
     number: string
 }[]
 const Filter = () => {
-    let wallet = [
+    let wallet:MoneyType = [
         {id: 1, banknote: 'dollar', nominal: 100, number: 'qqw333323'},
         {id: 2, banknote: 'grn', nominal: 200, number: 'qqw333323'},
         {id: 3, banknote: 'dollar', nominal: 20, number: 'qqw333323'},
         {id: 4, banknote: 'grn', nominal: 10, number: 'qqw333323'},
         {id: 5, banknote: 'grn', nominal: 10, number: 'q32343242'}
     ]
-    let [money] = useState(wallet)
+    let [money] = useState<MoneyType>(wallet)
 
     let [moneyName, setMoneyName] = useState<FilterType>('all')
 
